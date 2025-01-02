@@ -1,7 +1,7 @@
 
 const loadAllProduct = () => {
   document.getElementById("handleAdd").addEventListener("click", () => {
-    const inputValue = document.getElementById("search-box").value.trim();
+    const inputValue = document.getElementById("search-box").value;
     const container = document.getElementById("coment-container");
     const detailsContainer = document.getElementById("food-details");
 
