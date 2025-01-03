@@ -22,8 +22,7 @@ const loadAllProduct = () => {
         }
       })
       .catch((error) => {
-        console.error("Error:", error);
-        container.innerHTML = `<p class="error-message">An error occurred. Please try again later.</p>`;
+        console.log("Error:", error);
       });
 
     document.getElementById("search-box").value = "";
